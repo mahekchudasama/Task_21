@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omnifood — Healthy Food, Delivered</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER + HERO ============ -->
+  <header class="hero-section" id="top">
+    <nav class="navbar container">
+      <a href="#top" class="logo">
+        <img src="assets/logo.svg" alt="Omnifood logo" />
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#delivery">Food delivery</a></li>
+        <li><a href="#how-it-works">How it works</a></li>
+        <li><a href="#cities">Our cities</a></li>
+        <li><a href="#pricing" class="nav-cta">Sign up</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero container">
+      <div class="hero-text">
+        <h1>Goodbye junk food.<br />Hello super healthy food.</h1>
+        <p class="hero-sub">
+          Omnifood pairs a smart algorithm with a network of local chefs to send
+          fresh, healthy meals to your door — every single day.
+        </p>
+        <div class="hero-cta">
+          <a href="#pricing" class="btn btn-primary">I'm hungry</a>
+          <a href="#how-it-works" class="btn btn-text">
+            Show me more <span aria-hidden="true">&darr;</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HOW IT WORKS ============ -->
+    <section class="section-how" id="how-it-works">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow-line"></span>
+          <h2>How it works</h2>
+        </div>
+
+        <div class="how-grid">
+          <div class="how-phone">
+            <img src="assets/phone-mockup.svg" alt="Omnifood app running on a smartphone" />
+          </div>
+
+          <div class="how-steps">
+            <div class="step">
+              <div class="step-number">1</div>
+              <p>Choose the plan that fits your needs best and sign up today.</p>
+            </div>
+            <div class="step">
+              <div class="step-number">2</div>
+              <p>Pay for your plan and download the Omnifood app with one click.</p>
+            </div>
+            <div class="step">
+              <div class="step-number">3</div>
+              <p>You're all set! Start ordering the healthiest food in town.</p>
+            </div>
+
+            <div class="store-badges">
+              <a href="#"><img src="assets/google-play.svg" alt="Get it on Google Play" /></a>
+              <a href="#"><img src="assets/app-store.svg" alt="Download on the App Store" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ OUR CITIES ============ -->
+    <section class="section-cities" id="cities">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow-line"></span>
+          <h2>We're currently in these cities</h2>
+        </div>
+
+        <div class="cities-grid">
+          <article class="city-card">
+            <img src="assets/city-lisbon.svg" alt="Illustration of Lisbon's Rua Augusta Arch" />
+            <h3>Lisbon</h3>
+            <ul>
+              <li>1,600+ happy eaters</li>
+              <li>50+ chefs</li>
+              <li>@omnifood_li</li>
+            </ul>
+          </article>
+
+          <article class="city-card">
+            <img src="assets/city-london.svg" alt="Illustration of London's Tower Bridge" />
+            <h3>London</h3>
+            <ul>
+              <li>1,600+ happy eaters</li>
+              <li>50+ chefs</li>
+              <li>@omnifood_ld</li>
+            </ul>
+          </article>
+
+          <article class="city-card">
+            <img src="assets/city-berlin.svg" alt="Illustration of the Brandenburg Gate in Berlin" />
+            <h3>Berlin</h3>
+            <ul>
+              <li>1,400+ happy eaters</li>
+              <li>70+ chefs</li>
+              <li>@omnifood_br</li>
+            </ul>
+          </article>
+
+          <article class="city-card">
+            <img src="assets/city-sanfrancisco.svg" alt="Illustration of the Golden Gate Bridge in San Francisco" />
+            <h3>San Francisco</h3>
+            <ul>
+              <li>1,800+ happy eaters</li>
+              <li>50+ chefs</li>
+              <li>@omnifood_sf</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section-testimonials">
+      <div class="testimonials-overlay">
+        <div class="container">
+          <div class="section-heading section-heading-light">
+            <span class="eyebrow-line"></span>
+            <h2>Our customers can't live without us</h2>
+          </div>
+
+          <div class="testimonials-grid">
+            <blockquote class="testimonial">
+              <p>
+                <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+                Omnifood is just awesome! I just launched a startup, which
+                leaves me with no time for cooking, so Omnifood is a life
+                saver. Now that I got used to it, I couldn't live without it!
+              </p>
+              <footer>
+                <img src="assets/avatar-1.svg" alt="" class="avatar" />
+                <cite>Alberto Duncan</cite>
+              </footer>
+            </blockquote>
+
+            <blockquote class="testimonial">
+              <p>
+                <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+                Inexpensive, healthy and great-tasting meals, delivered right
+                to my home. We have lots of food delivery here in Lisbon, but
+                no one comes even close to Omnifood. My family and I are so
+                in love!
+              </p>
+              <footer>
+                <img src="assets/avatar-2.svg" alt="" class="avatar" />
+                <cite>Joana Silva</cite>
+              </footer>
+            </blockquote>
+
+            <blockquote class="testimonial">
+              <p>
+                <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+                I was looking for a quick and easy food delivery service in
+                San Francisco. I tried a lot of them and ended up with
+                Omnifood — best food delivery service in the Bay Area. Keep
+                up the great work!
+              </p>
+              <footer>
+                <img src="assets/avatar-3.svg" alt="" class="avatar" />
+                <cite>Milton Chapman</cite>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section class="section-pricing" id="pricing">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow-line"></span>
+          <h2>Start eating healthy today</h2>
+        </div>
+
+        <div class="pricing-grid">
+          <div class="plan">
+            <p class="plan-name">Premium</p>
+            <p class="plan-price"><span class="currency">$</span>399<span class="per">/ month</span></p>
+            <p class="plan-note">That's only $13.90 per meal</p>
+            <ul class="plan-features">
+              <li><img src="assets/icon-check.svg" alt="" /> 1 meal every day</li>
+              <li><img src="assets/icon-check.svg" alt="" /> Order 24/7</li>
+              <li><img src="assets/icon-check.svg" alt="" /> Access to newest creations</li>
+              <li><img src="assets/icon-check.svg" alt="" /> Free delivery</li>
+            </ul>
+            <a href="#" class="btn btn-primary btn-full">Sign up</a>
+          </div>
+
+          <div class="plan plan-highlight">
+            <p class="plan-name">Pro</p>
+            <p class="plan-price"><span class="currency">$</span>199<span class="per">/ month</span></p>
+            <p class="plan-note">That's only $10.90 per meal</p>
+            <ul class="plan-features">
+              <li><img src="assets/icon-check.svg" alt="" /> 1 meal every 2 days</li>
+              <li><img src="assets/icon-check.svg" alt="" /> Order 24/7</li>
+              <li><img src="assets/icon-check.svg" alt="" /> Access to newest creations</li>
+              <li><img src="assets/icon-check.svg" alt="" /> Free delivery</li>
+            </ul>
+            <a href="#" class="btn btn-primary btn-full">Sign up</a>
+          </div>
+
+          <div class="plan">
+            <p class="plan-name">Starter</p>
+            <p class="plan-price"><span class="currency">$</span>19<span class="per">/ meal</span></p>
+            <p class="plan-note">Pay per meal, no commitment</p>
+            <ul class="plan-features">
+              <li><img src="assets/icon-check.svg" alt="" /> 1 meal a month</li>
+              <li><img src="assets/icon-check.svg" alt="" /> Order 24/7</li>
+              <li><img src="assets/icon-cross.svg" alt="" /> Access to newest creations</li>
+              <li><img src="assets/icon-check.svg" alt="" /> Free delivery</li>
+            </ul>
+            <a href="#" class="btn btn-outline btn-full">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#top" class="logo logo-dark">
+          <img src="assets/logo.svg" alt="Omnifood logo" />
+        </a>
+        <p>Change the way you eat, one meal at a time.</p>
+      </div>
+
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#">About us</a>
+        <a href="#">Blog</a>
+        <a href="#">Press</a>
+        <a href="#">iOS app</a>
+        <a href="#">Android app</a>
+      </nav>
+
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook"><img src="assets/social-facebook.svg" alt="" /></a>
+        <a href="#" aria-label="Twitter"><img src="assets/social-twitter.svg" alt="" /></a>
+        <a href="#" aria-label="Instagram"><img src="assets/social-instagram.svg" alt="" /></a>
+      </div>
+    </div>
+    <p class="copyright container">&copy; 2026 Omnifood. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
