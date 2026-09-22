@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="skyLon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8fa6c9"/>
+      <stop offset="100%" stop-color="#5b7ba0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#skyLon)"/>
+  <rect y="220" width="400" height="80" fill="#3f597f"/>
+  <!-- Tower bridge -->
+  <g fill="#6d4a2f">
+    <rect x="80" y="70" width="26" height="150"/>
+    <rect x="294" y="70" width="26" height="150"/>
+    <polygon points="80,70 106,70 106,40 93,20 80,40" />
+    <polygon points="294,70 320,70 320,40 307,20 294,40" />
+  </g>
+  <rect x="106" y="150" width="188" height="18" fill="#8a6a48"/>
+  <rect x="106" y="176" width="188" height="8" fill="#3f2c1c"/>
+  <g stroke="#c7d4e6" stroke-width="3">
+    <line x1="106" y1="150" x2="80" y2="100"/>
+    <line x1="150" y1="150" x2="93" y2="90"/>
+    <line x1="294" y1="150" x2="320" y2="100"/>
+    <line x1="250" y1="150" x2="307" y2="90"/>
+  </g>
+  <rect x="20" y="200" width="24" height="40" fill="#3f597f"/>
+  <rect x="350" y="190" width="20" height="50" fill="#3f597f"/>
+</svg>

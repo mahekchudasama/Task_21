@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2b2118"/>
+      <stop offset="55%" stop-color="#1c1610"/>
+      <stop offset="100%" stop-color="#100c08"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#4a3624" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#1c1610" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#base)"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+
+  <!-- stylised cutting board -->
+  <g opacity="0.9">
+    <rect x="180" y="360" width="1150" height="520" rx="26" fill="#3c2b1c" transform="rotate(-4 755 620)"/>
+    <rect x="210" y="380" width="1090" height="470" rx="20" fill="#4a3624" transform="rotate(-4 755 620)"/>
+  </g>
+
+  <!-- plated food: seared cutlets -->
+  <ellipse cx="560" cy="560" rx="150" ry="95" fill="#7a4a2d"/>
+  <ellipse cx="560" cy="555" rx="150" ry="90" fill="#8a5a37"/>
+  <ellipse cx="520" cy="530" rx="55" ry="30" fill="#a97042"/>
+  <ellipse cx="610" cy="560" rx="50" ry="26" fill="#a97042"/>
+
+  <!-- asparagus stalks -->
+  <g stroke="#6a8f4d" stroke-width="14" stroke-linecap="round">
+    <line x1="850" y1="430" x2="1120" y2="700"/>
+    <line x1="890" y1="420" x2="1160" y2="690"/>
+    <line x1="930" y1="410" x2="1195" y2="675"/>
+    <line x1="970" y1="405" x2="1225" y2="655"/>
+  </g>
+  <g fill="#4f7038">
+    <circle cx="850" cy="430" r="10"/>
+    <circle cx="890" cy="420" r="10"/>
+    <circle cx="930" cy="410" r="10"/>
+    <circle cx="970" cy="405" r="10"/>
+  </g>
+
+  <!-- citrus wedge -->
+  <circle cx="1250" cy="480" r="70" fill="#d68a3a"/>
+  <circle cx="1250" cy="480" r="55" fill="#e6a04c"/>
+  <g stroke="#d68a3a" stroke-width="3">
+    <line x1="1250" y1="425" x2="1250" y2="535"/>
+    <line x1="1196" y1="480" x2="1304" y2="480"/>
+    <line x1="1211" y1="441" x2="1289" y2="519"/>
+    <line x1="1289" y1="441" x2="1211" y2="519"/>
+  </g>
+
+  <!-- dark vignette overlay for text readability -->
+  <rect width="1600" height="1000" fill="#0a0806" opacity="0.55"/>
+</svg>

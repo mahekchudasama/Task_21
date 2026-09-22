@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="skyBer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8dccb"/>
+      <stop offset="100%" stop-color="#cbb994"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#skyBer)"/>
+  <rect y="230" width="400" height="70" fill="#a9906a"/>
+  <!-- Brandenburg gate -->
+  <g fill="#8a765a">
+    <rect x="90" y="90" width="220" height="14"/>
+    <rect x="90" y="200" width="220" height="16"/>
+    <rect x="100" y="104" width="16" height="96"/>
+    <rect x="136" y="104" width="16" height="96"/>
+    <rect x="172" y="104" width="16" height="96"/>
+    <rect x="208" y="104" width="16" height="96"/>
+    <rect x="244" y="104" width="16" height="96"/>
+    <rect x="284" y="104" width="16" height="96"/>
+    <rect x="160" y="60" width="80" height="30"/>
+  </g>
+  <g fill="#6b5a42">
+    <rect x="192" y="40" width="16" height="24"/>
+    <circle cx="200" cy="34" r="10"/>
+  </g>
+</svg>

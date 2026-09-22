@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="skySF" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4a889"/>
+      <stop offset="100%" stop-color="#e8735a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#skySF)"/>
+  <rect y="230" width="400" height="70" fill="#8398ad"/>
+  <!-- Golden Gate bridge -->
+  <g fill="#b1442f">
+    <rect x="70" y="60" width="20" height="170"/>
+    <rect x="310" y="60" width="20" height="170"/>
+    <rect x="60" y="50" width="40" height="14"/>
+    <rect x="300" y="50" width="40" height="14"/>
+  </g>
+  <rect x="90" y="150" width="220" height="10" fill="#8f3223"/>
+  <g stroke="#c9503a" stroke-width="2">
+    <line x1="100" y1="150" x2="80" y2="70"/>
+    <line x1="130" y1="150" x2="80" y2="70"/>
+    <line x1="160" y1="150" x2="80" y2="70"/>
+    <line x1="200" y1="150" x2="320" y2="70"/>
+    <line x1="240" y1="150" x2="320" y2="70"/>
+    <line x1="280" y1="150" x2="320" y2="70"/>
+  </g>
+  <rect x="90" y="160" width="220" height="60" fill="#7a2c1f" opacity="0.5"/>
+</svg>
